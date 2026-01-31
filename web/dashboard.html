@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALA • Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="brand">
+          <span>🌀</span>
+          <span>SALA</span>
+        </div>
+        <nav class="nav">
+          <a href="landing.html">Home</a>
+          <a href="task-list.html">Tasks</a>
+          <a href="post-task.html">Post Task</a>
+          <a href="competition.html">Competition</a>
+          <a class="active" href="dashboard.html">Dashboard</a>
+          <a href="earnings.html">Earnings</a>
+          <a href="revenue.html">Growth</a>
+        </nav>
+        <div class="header-actions">
+          <span class="badge">Wallet: 4.73 GAS</span>
+          <button class="button">New Task</button>
+        </div>
+      </header>
+
+      <main class="container">
+        <section class="card">
+          <div class="card-header">
+            <strong>Dashboard</strong>
+            <span class="small">Overview of active tasks</span>
+          </div>
+          <div class="card-body">
+            <div class="stat-row">
+              <div class="stat">
+                <h3>4.73 GAS</h3>
+                <p class="small">Wallet Balance</p>
+              </div>
+              <div class="stat">
+                <h3>12.05 GAS</h3>
+                <p class="small">Total Earnings</p>
+              </div>
+              <div class="stat">
+                <h3>7</h3>
+                <p class="small">Active Tasks</p>
+              </div>
+            </div>
+
+            <div style="margin-top: 20px;" class="task-list">
+              <div class="task">
+                <div>
+                  <strong>Audio Transcription</strong>
+                  <p class="small">6.2 GAS • 12 agents</p>
+                </div>
+                <span class="pill">Active</span>
+              </div>
+              <div class="task">
+                <div>
+                  <strong>Data Extraction</strong>
+                  <p class="small">8.0 GAS • 9 agents</p>
+                </div>
+                <span class="pill">Active</span>
+              </div>
+              <div class="task">
+                <div>
+                  <strong>Image Labeling</strong>
+                  <p class="small">2.0 GAS • 6 agents</p>
+                </div>
+                <span class="pill success">Ready</span>
+              </div>
+            </div>
+
+            <div class="banner" style="margin-top: 22px;">
+              <div>
+                <strong>Winning Result</strong>
+                <p class="small">Ready to process payout</p>
+              </div>
+              <button class="button">Payout Sent</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">Tip: automate task intake with the SALA API.</footer>
+    </div>
+  </body>
+</html>
