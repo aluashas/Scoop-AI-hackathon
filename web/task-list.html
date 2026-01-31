@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALA • Task List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="brand">
+          <span>🌀</span>
+          <span>SALA</span>
+        </div>
+        <nav class="nav">
+          <a href="landing.html">Home</a>
+          <a href="post-task.html">Post Task</a>
+          <a href="competition.html">Competition</a>
+          <a class="active" href="task-list.html">Tasks</a>
+          <a href="dashboard.html">Dashboard</a>
+          <a href="earnings.html">Earnings</a>
+          <a href="revenue.html">Growth</a>
+        </nav>
+        <div class="header-actions">
+          <span class="badge">Job Seeker</span>
+          <button class="button">Create Profile</button>
+        </div>
+      </header>
+
+      <main class="container">
+        <section class="hero">
+          <div>
+            <h1>Task Marketplace</h1>
+            <p>Browse verified micro-tasks, track rewards, and apply in one tap. Filter by skills, payout, and delivery window.</p>
+          </div>
+          <div class="stat-row">
+            <div class="stat">
+              <h3>124</h3>
+              <p class="small">Open Tasks</p>
+            </div>
+            <div class="stat">
+              <h3>5.4 GAS</h3>
+              <p class="small">Average Reward</p>
+            </div>
+            <div class="stat">
+              <h3>3 hrs</h3>
+              <p class="small">Median Completion</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="filters" style="margin-top: 26px;">
+          <div class="filters-row">
+            <label class="form-group search-input">
+              <span>🔎</span>
+              <input type="text" placeholder="Search tasks, skills, or clients" />
+            </label>
+            <label class="form-group">
+              <span class="small">Category</span>
+              <select>
+                <option>All categories</option>
+                <option>Data Labeling</option>
+                <option>Content Review</option>
+                <option>Transcription</option>
+                <option>Research</option>
+              </select>
+            </label>
+            <label class="form-group">
+              <span class="small">Reward</span>
+              <select>
+                <option>Any reward</option>
+                <option>1-3 GAS</option>
+                <option>3-6 GAS</option>
+                <option>6+ GAS</option>
+              </select>
+            </label>
+            <label class="form-group">
+              <span class="small">Time to deliver</span>
+              <select>
+                <option>Any window</option>
+                <option>Under 2 hours</option>
+                <option>Same day</option>
+                <option>Multi-day</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="sort-bar">
+            <div class="chip-group">
+              <span class="chip active">Recommended</span>
+              <span class="chip">Newest</span>
+              <span class="chip">Highest reward</span>
+              <span class="chip">Shortest SLA</span>
+              <span class="chip">Verified only</span>
+            </div>
+            <span class="small">Showing 24 tasks</span>
+          </div>
+        </section>
+
+        <section class="task-board" style="margin-top: 22px;">
+          <article class="task-card">
+            <div class="task-header">
+              <div>
+                <h3 class="task-title">E-commerce Product Tagging</h3>
+                <p class="small">RetailPulse • Posted 12 mins ago</p>
+              </div>
+              <span class="tag success">Verified</span>
+            </div>
+            <div class="task-meta">
+              <span>Reward: 6.8 GAS</span>
+              <span>ETA: 2 hours</span>
+              <span>Batch size: 320 items</span>
+              <span>Location: Remote</span>
+            </div>
+            <div class="tags">
+              <span class="tag">Tagging</span>
+              <span class="tag">Quality check</span>
+              <span class="tag">Fast turn</span>
+            </div>
+            <div class="task-actions">
+              <button class="button">Apply</button>
+              <button class="button secondary">Save</button>
+              <span class="small">Closes in 4h 10m</span>
+            </div>
+          </article>
+
+          <article class="task-card">
+            <div class="task-header">
+              <div>
+                <h3 class="task-title">Audio Transcription: Support Calls</h3>
+                <p class="small">CloudVoice • Posted 1 hour ago</p>
+              </div>
+              <span class="tag warning">Priority</span>
+            </div>
+            <div class="task-meta">
+              <span>Reward: 4.2 GAS</span>
+              <span>ETA: 3 hours</span>
+              <span>Length: 45 mins</span>
+              <span>Language: English</span>
+            </div>
+            <div class="tags">
+              <span class="tag">Transcription</span>
+              <span class="tag">PII safe</span>
+              <span class="tag">QA checklist</span>
+            </div>
+            <div class="task-actions">
+              <button class="button">Apply</button>
+              <button class="button secondary">Save</button>
+              <span class="small">Closes in 6h</span>
+            </div>
+          </article>
+
+          <article class="task-card">
+            <div class="task-header">
+              <div>
+                <h3 class="task-title">Market Snapshot Research: EV Charging</h3>
+                <p class="small">NovaGrid • Posted 3 hours ago</p>
+              </div>
+              <span class="tag">Open</span>
+            </div>
+            <div class="task-meta">
+              <span>Reward: 8.5 GAS</span>
+              <span>ETA: Same day</span>
+              <span>Deliverable: 1-page summary</span>
+              <span>Region: North America</span>
+            </div>
+            <div class="tags">
+              <span class="tag">Research</span>
+              <span class="tag">Web sources</span>
+              <span class="tag">Citations</span>
+            </div>
+            <div class="task-actions">
+              <button class="button">Apply</button>
+              <button class="button secondary">Save</button>
+              <span class="small">Closes in 1d 4h</span>
+            </div>
+          </article>
+
+          <article class="task-card">
+            <div class="task-header">
+              <div>
+                <h3 class="task-title">Image Moderation: Community Posts</h3>
+                <p class="small">Brightfeed • Posted 5 hours ago</p>
+              </div>
+              <span class="tag success">Verified</span>
+            </div>
+            <div class="task-meta">
+              <span>Reward: 3.1 GAS</span>
+              <span>ETA: 90 mins</span>
+              <span>Batch size: 180 images</span>
+              <span>Shift: Flexible</span>
+            </div>
+            <div class="tags">
+              <span class="tag">Content review</span>
+              <span class="tag">Safety policy</span>
+              <span class="tag">Fast turn</span>
+            </div>
+            <div class="task-actions">
+              <button class="button">Apply</button>
+              <button class="button secondary">Save</button>
+              <span class="small">Closes in 2h 30m</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="card" style="margin-top: 22px;">
+          <div class="card-header">
+            <strong>Task Readiness</strong>
+            <span class="small">Complete these to unlock higher payouts.</span>
+          </div>
+          <div class="card-body">
+            <div class="task-list">
+              <div class="task">
+                <div>
+                  <strong>Identity Verification</strong>
+                  <p class="small">Unlock verified tasks and higher limits.</p>
+                </div>
+                <span class="pill success">Complete</span>
+              </div>
+              <div class="task">
+                <div>
+                  <strong>Skills Profile</strong>
+                  <p class="small">Match with tasks based on strengths.</p>
+                </div>
+                <span class="pill">Pending</span>
+              </div>
+              <div class="task">
+                <div>
+                  <strong>Quality Guidelines</strong>
+                  <p class="small">Learn how submissions are scored.</p>
+                </div>
+                <span class="pill">Start</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">Need help? Visit the community hub for onboarding and training.</footer>
+    </div>
+  </body>
+</html>
